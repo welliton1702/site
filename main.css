@@ -1,0 +1,51 @@
+@charset "utf8";
+
+:root{
+    --cor0:#3D84A8 ;
+    --cor1:#426475;
+    --cor2:#24A0DC;
+    --cor3:#323D42;
+    --cor4:#2B3033;
+}
+body{
+    background-color: var(--cor1);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items:center ;
+    padding: 16px;
+}ul:hover{
+    text-decoration:underline;
+    
+ 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px #2B3033;
+}
+.center{
+    text-align: center;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.serviços{
+    color: #2B3033;
+    text-decoration-line: underline;
+    font-size: 20px;
+}
